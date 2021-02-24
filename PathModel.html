@@ -710,15 +710,10 @@ parameterestimates(fitStr2, boot.ci.type ='bca.simple', standardized = T)
 
 ## Categorical variables: exogenous
 
-If it is exogenous (only predicting), then we can just dummy code this variable (0 and 1)
-
-.center[
-&lt;img src="Image5.jpg", width = "50%"&gt;
-]
-
+&lt;img src="image5.png" width="70%" style="display: block; margin: auto;" /&gt;
 ---
 
-## Results: categorical predictor 1
+## Results: categorical predictor exogenous
 
 
 ```r
@@ -774,9 +769,7 @@ summary(fitStr3)
 
 If it is endogenous (being predicted), then we need to specify this as a categorical variable and use different estimator (WLSMV)
 
-.center[
-&lt;img src="Image6.jpg", width = "50%"&gt;
-]
+&lt;img src="image6.png" width="70%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -861,9 +854,7 @@ PhysicalSt~Age+Height+AgeGender
 '
 ```
 
-.center[
-&lt;img src="Image7.jpg", width = "50%"&gt;
-]
+&lt;img src="image7.png" width="70%" style="display: block; margin: auto;" /&gt;
 ---
 ## Conditional process analysis: results
 
@@ -1256,7 +1247,7 @@ plot(density(NBAPath$PER), main='')
 plot(density(NBAPath$PCT), main='')
 ```
 
-&lt;img src="PathModel_files/figure-html/unnamed-chunk-28-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="PathModel_files/figure-html/unnamed-chunk-32-1.png" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -1269,15 +1260,13 @@ plot(NBAPath$Age, NBAPath$PER)
 plot(NBAPath$GP, NBAPath$PER)
 ```
 
-&lt;img src="PathModel_files/figure-html/unnamed-chunk-29-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="PathModel_files/figure-html/unnamed-chunk-33-1.png" style="display: block; margin: auto;" /&gt;
 
 ---
 
 ## Specification of the model 
 
-.center[
-&lt;img src="Image8.png", width = "60%"&gt;
-]
+&lt;img src="image8.png" width="70%" style="display: block; margin: auto;" /&gt;
 
 
 ---
@@ -1388,9 +1377,7 @@ AIC(NBAfit1)
 
 ## Respecification of the model 
 
-.center[
-&lt;img src="Image9.png", width = "70%"&gt;
-]
+&lt;img src="image9.png" width="70%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -1510,9 +1497,7 @@ summary(diff)
 
 ## Respecification of the model 
 
-.center[
-&lt;img src="Image10.png", width = "70%"&gt;
-]
+&lt;img src="image10.png" width="70%" style="display: block; margin: auto;" /&gt;
 
 ---
 

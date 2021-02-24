@@ -375,7 +375,7 @@ summary(fitStr1)
 
 ## More pathways
 
-```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+```{r, echo=FALSE, out.width = '70%',fig.align='center'}
 knitr::include_graphics("image4.png")
 ```
 
@@ -417,14 +417,12 @@ parameterestimates(fitStr2, boot.ci.type ='bca.simple', standardized = T)
 
 ## Categorical variables: exogenous
 
-If it is exogenous (only predicting), then we can just dummy code this variable (0 and 1)
-
-```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+```{r, echo=FALSE, out.width = '70%',fig.align='center'}
 knitr::include_graphics("image5.png")
 ```
 ---
 
-## Results: categorical predictor 1
+## Results: categorical predictor exogenous
 
 ```{r}
 Babies$Gender=ifelse(Babies$Gender=='Girls',0,1)
@@ -443,7 +441,7 @@ summary(fitStr3)
 
 If it is endogenous (being predicted), then we need to specify this as a categorical variable and use different estimator (WLSMV)
 
-```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+```{r, echo=FALSE, out.width = '70%',fig.align='center'}
 knitr::include_graphics("image6.png")
 ```
 
@@ -472,7 +470,7 @@ PhysicalSt~Age+Height+AgeGender
 '
 ```
 
-```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+```{r, echo=FALSE, out.width = '70%',fig.align='center'}
 knitr::include_graphics("image7.png")
 ```
 ---
@@ -637,7 +635,7 @@ plot(NBAPath$GP, NBAPath$PER)
 
 ## Specification of the model 
 
-```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+```{r, echo=FALSE, out.width = '70%',fig.align='center'}
 knitr::include_graphics("image8.png")
 ```
 
@@ -689,7 +687,7 @@ AIC(NBAfit1)
 
 ## Respecification of the model 
 
-```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+```{r, echo=FALSE, out.width = '70%',fig.align='center'}
 knitr::include_graphics("image9.png")
 ```
 
@@ -722,7 +720,7 @@ summary(diff)
 
 ## Respecification of the model 
 
-```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+```{r, echo=FALSE, out.width = '70%',fig.align='center'}
 knitr::include_graphics("image10.png")
 ```
 
