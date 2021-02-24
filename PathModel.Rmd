@@ -84,7 +84,6 @@ Latent variables: infered measures - hypothetical constructs  <br/>
  - Indicator variables: measures used to infer the latent concepts
 <br/>
 <br/> 
-<br/>
 
 Endogenous variables: dependent outcomes <br/> <br/> 
 Exogenous variables: predictors <br/> <br/> <br/> 
