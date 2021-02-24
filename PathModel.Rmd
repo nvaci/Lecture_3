@@ -375,9 +375,8 @@ summary(fitStr1)
 
 ## More pathways
 
-.center[
-<img src="Image4.png", width = "50%">
-]
+![pathways](image4.png){#id .class width=20% height=20%}
+
 <br/><br/>
 Direct effect: a<br/>
 Indirect effect: $b*c + e*f$ <br/>
