@@ -375,7 +375,9 @@ summary(fitStr1)
 
 ## More pathways
 
-![pathways](image4.png){#id .class width=20% height=20%}
+```{r pressure, echo=FALSE, out.width = '50%'}
+knitr::include_graphics("image4.png")
+```
 
 <br/><br/>
 Direct effect: a<br/>
