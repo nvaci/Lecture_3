@@ -376,7 +376,7 @@ summary(fitStr1)
 ## More pathways
 
 .center[
-<img src="Image4.jpg", width = "50%">
+<img src="Image4.png", width = "50%">
 ]
 
 Direct effect: a<br/>
