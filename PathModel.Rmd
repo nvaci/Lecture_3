@@ -375,14 +375,9 @@ summary(fitStr1)
 
 ## More pathways
 
-```{r pressure, echo=FALSE, out.width = '50%'}
+```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
 knitr::include_graphics("image4.png")
 ```
-
-<br/><br/>
-Direct effect: a<br/>
-Indirect effect: $b*c + e*f$ <br/>
-Total effect: $a+(b*c)+(e*f)$
 
 ---
 
@@ -424,10 +419,9 @@ parameterestimates(fitStr2, boot.ci.type ='bca.simple', standardized = T)
 
 If it is exogenous (only predicting), then we can just dummy code this variable (0 and 1)
 
-.center[
-<img src="Image5.jpg", width = "50%">
-]
-
+```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+knitr::include_graphics("image5.png")
+```
 ---
 
 ## Results: categorical predictor 1
@@ -449,9 +443,9 @@ summary(fitStr3)
 
 If it is endogenous (being predicted), then we need to specify this as a categorical variable and use different estimator (WLSMV)
 
-.center[
-<img src="Image6.jpg", width = "50%">
-]
+```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+knitr::include_graphics("image6.png")
+```
 
 ---
 
@@ -478,9 +472,9 @@ PhysicalSt~Age+Height+AgeGender
 '
 ```
 
-.center[
-<img src="Image7.jpg", width = "50%">
-]
+```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+knitr::include_graphics("image7.png")
+```
 ---
 ## Conditional process analysis: results
 
@@ -643,9 +637,9 @@ plot(NBAPath$GP, NBAPath$PER)
 
 ## Specification of the model 
 
-.center[
-<img src="Image8.png", width = "60%">
-]
+```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+knitr::include_graphics("image8.png")
+```
 
 
 ---
@@ -695,9 +689,9 @@ AIC(NBAfit1)
 
 ## Respecification of the model 
 
-.center[
-<img src="Image9.png", width = "70%">
-]
+```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+knitr::include_graphics("image9.png")
+```
 
 ---
 
@@ -728,9 +722,9 @@ summary(diff)
 
 ## Respecification of the model 
 
-.center[
-<img src="Image10.png", width = "70%">
-]
+```{r pressure, echo=FALSE, out.width = '70%',fig.align='center'}
+knitr::include_graphics("image10.png")
+```
 
 ---
 
