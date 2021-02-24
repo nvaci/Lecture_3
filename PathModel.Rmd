@@ -376,7 +376,7 @@ summary(fitStr1)
 ## More pathways
 
 .center[
-<img src="Image4.png", width = "60%">
+<img src="Image4.png", width = "50%">
 ]
 
 Direct effect: a<br/>
@@ -424,7 +424,7 @@ parameterestimates(fitStr2, boot.ci.type ='bca.simple', standardized = T)
 If it is exogenous (only predicting), then we can just dummy code this variable (0 and 1)
 
 .center[
-<img src="Image5.png", width = "60%">
+<img src="Image5.png", width = "50%">
 ]
 
 ---
@@ -449,7 +449,7 @@ summary(fitStr3)
 If it is endogenous (being predicted), then we need to specify this as a categorical variable and use different estimator (WLSMV)
 
 .center[
-<img src="Image6.png", width = "60%">
+<img src="Image6.png", width = "50%">
 ]
 
 ---
@@ -478,7 +478,7 @@ PhysicalSt~Age+Height+AgeGender
 ```
 
 .center[
-<img src="Image7.png", width = "60%">
+<img src="Image7.png", width = "50%">
 ]
 ---
 ## Conditional process analysis: results
