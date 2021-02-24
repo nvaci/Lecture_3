@@ -378,7 +378,7 @@ summary(fitStr1)
 .center[
 <img src="Image4.png", width = "50%">
 ]
-
+<br/><br/>
 Direct effect: a<br/>
 Indirect effect: $b*c + e*f$ <br/>
 Total effect: $a+(b*c)+(e*f)$
