@@ -759,6 +759,16 @@ parameterestimates(NBAfit3, boot.ci.type ='bca.simple', standardized = T)
 
 ---
 
+## Bootstrapping our model
+
+```{r}
+#install.packages('bootstrap')
+require(bootstrap)
+boot<-bootstrapLavaan(NBAfit3, R=1000)
+summary(boot)
+```
+
+---
 ## Literature
 
 Chapters 1 to 5 of Principles and Practice of Structural Equation Modeling by Rex B. Kline <br/><br/> 

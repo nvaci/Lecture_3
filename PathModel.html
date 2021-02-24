@@ -1638,6 +1638,45 @@ parameterestimates(NBAfit3, boot.ci.type ='bca.simple', standardized = T)
 
 ---
 
+## Bootstrapping our model
+
+
+```r
+#install.packages('bootstrap')
+require(bootstrap)
+```
+
+```
+## Loading required package: bootstrap
+```
+
+```
+## Warning: package 'bootstrap' was built under R version 4.0.3
+```
+
+```r
+boot&lt;-bootstrapLavaan(NBAfit3, R=1000)
+summary(boot)
+```
+
+```
+##        b                 a                  c                 d            
+##  Min.   :0.04561   Min.   :-0.03977   Min.   :0.08148   Min.   :0.0009711  
+##  1st Qu.:0.25156   1st Qu.: 0.00430   1st Qu.:0.09061   1st Qu.:0.0019390  
+##  Median :0.31844   Median : 0.01583   Median :0.09330   Median :0.0022062  
+##  Mean   :0.31566   Mean   : 0.01602   Mean   :0.09319   Mean   :0.0022351  
+##  3rd Qu.:0.37691   3rd Qu.: 0.02838   3rd Qu.:0.09580   3rd Qu.:0.0025510  
+##  Max.   :0.66078   Max.   : 0.07148   Max.   :0.10923   Max.   :0.0035743  
+##      GP~~GP         PER~~PER        PCT~~PCT      
+##  Min.   :611.1   Min.   :19.42   Min.   :0.02203  
+##  1st Qu.:638.3   1st Qu.:21.27   1st Qu.:0.02319  
+##  Median :645.1   Median :21.82   Median :0.02350  
+##  Mean   :645.7   Mean   :21.85   Mean   :0.02351  
+##  3rd Qu.:653.2   3rd Qu.:22.39   3rd Qu.:0.02380  
+##  Max.   :677.4   Max.   :24.80   Max.   :0.02511
+```
+
+---
 ## Literature
 
 Chapters 1 to 5 of Principles and Practice of Structural Equation Modeling by Rex B. Kline &lt;br/&gt;&lt;br/&gt; 
