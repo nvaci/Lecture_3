@@ -769,6 +769,26 @@ summary(boot)
 ```
 
 ---
+## Important aspects: theory
+
+- Difference between moderation, mediation and conditional process analysis <br/>
+- Exogenous and endogenous variables <br/>
+- Interpretation of the predictors <br/>
+- Calculation of free parameters and total parameters <br/>
+- Model identification: three-types of identifications <br/>
+- Overall fit of the model 
+
+---
+
+## Important aspects: practice
+
+- Building path model: both continous and categorical exogenous variables <br/>
+- Calculation of the direct and indirect pathways for predictors of interest <br/>
+- Adding an interaction to path model <br/>
+- Interpretation of the coefficients <br/>
+- Getting fit indices of the model <br/>
+
+---
 ## Literature
 
 Chapters 1 to 5 of Principles and Practice of Structural Equation Modeling by Rex B. Kline <br/><br/> 
